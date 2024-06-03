@@ -1,0 +1,29 @@
+<body>  
+		<div class="mondai-content wrapper">
+                <h2 class="page-title2">QR game</h2>
+                <p>QR game homepage</p>
+            </div>
+
+	
+	<div class="mondai-detail wrapper">
+       <h3 class="middle-title">被害者たち</h3>
+		
+		<div class="detail-wrapper">
+      <a href="boy.html" class="btn btn1">boy</a>
+      <a href="cry.html" class="btn btn2">cry</a>
+			<a href="date.html" class="btn btn3">date</a>
+			<a href="girl.html" class="btn btn4">girl</a>
+			<a href="help.html" class="btn btn5">help</a>
+			<a href="inu.html" class="btn btn6">inu</a>
+			<a href="megane.html" class="btn btn7">megane</a>
+			<a href="neko.html" class="btn btn8">neko</a>
+			<a href="obaa.html" class="btn btn9">obaa</a>
+      <a href="ojii.html" class="btn btn1">ojii</a>
+      <a href="syachiku.html" class="btn btn2">syachiku</a>
+			<a href="tori.html" class="btn btn3">tori</a>
+			<a href="yankee.html" class="btn btn4">yankee</a>
+			<a href="zetubou.html" class="btn btn5">zetubou</a>
+        </div> 
+       </div>
+
+</body>
