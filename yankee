@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像の切り替え</title>
+    <style>
+        #image-container {
+            width: 1440px;
+            height: 2560px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="image-container">
+    <img id="main-image" src="higaisya/yankee.png" alt="最初の画像">
+</div>
+
+<script>
+    document.getElementById('main-image').addEventListener('click', function() {
+        const img = document.getElementById('main-image');
+        if (img.src.includes('higaisya/yankee.png')) {
+            img.src = 'higaisya/yankee_text.png';
+        } else {
+            img.src = 'higaisya/yankee.png';
+        }
+    });
+</script>
+
+</body>
+</html>
